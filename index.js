@@ -4,12 +4,6 @@ let path = require("path");
 
 const FILENAME = argv.filename || "nginx-if.json";
 
-
-
-function fileExistsAt(path) {
-    return fs.existsSync(path.join(path, FILENAME)); 
-}
-
 let cwdPath = path.join(process.cwd(), FILENAME);
 let dirPath = path.join(__dirname, FILENAME);
 let config;
