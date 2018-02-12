@@ -1,0 +1,25 @@
+{
+  "name": "nginx-if",
+  "version": "0.0.1-0",
+  "description": "NGINX utility for conditionally switching location blocks in confs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philstavri/nginx-if.git"
+  },
+  "keywords": [
+    "nginx"
+  ],
+  "author": "Phil Stavri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/philstavri/nginx-if/issues"
+  },
+  "homepage": "https://github.com/philstavri/nginx-if#readme",
+  "dependencies": {
+    "yargs": "11.0.0"
+  }
+}
