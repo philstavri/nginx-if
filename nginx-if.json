@@ -1,9 +1,19 @@
 {
-    "conditions": [
-        {
-            "name": "foo",
-            "yes": "/locations/fooYes.conf",
-            "no": "/locations/fooNo.conf"
-        }
-    ]
+  "options": {
+    "nginxConfFilename": "test/test.conf"
+  },
+  "conditions": [
+    {
+      "name": "foo",
+      "on": "/locations/fooOn.conf",
+      "off": "/locations/fooOff.conf",
+      "isOn": true
+    },
+    {
+      "name": "bar",
+      "on": "/locations/barOn.conf",
+      "off": "/locations/barOff.conf",
+      "isOn": true
+    }
+  ]
 }
